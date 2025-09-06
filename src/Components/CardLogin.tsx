@@ -26,8 +26,8 @@ const CardLogin = () => {
 
   return (
     <form onSubmit={SubmitAction} className='container-card'>
-      <Label nameLabel='username' ref={refUser} />
-      <Label nameLabel='password' ref={refPass} />
+      <Label nameLabel='Username' ref={refUser} />
+      <Label nameLabel='Password' ref={refPass} />
       <Button name='Login' func={() => alert('Working!')} />
     </form>
 
